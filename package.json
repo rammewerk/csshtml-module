@@ -1,0 +1,22 @@
+{
+  "name": "csshtml-module",
+  "version": "1.0.0",
+  "description": "Easily compile CSS or HTML files to JavaScript/TypeScript modules with this CLI tool.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "csshtml-module": "bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/rammewerk/csshtml-module/issues"
+  },
+  "keywords": [],
+  "author": "Kristoffer Follstad <kf@rammewerk.com> (https://rammewerk.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {}
+}
