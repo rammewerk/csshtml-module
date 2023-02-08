@@ -4,12 +4,12 @@ const {program} = require('commander');
 
 program
     .version(require('../package').version)
-    .description('A CLI tool to convert files into javascript export module strings')
-    .requiredOption('-i, --input <file>', 'input file')
-    .requiredOption('-o, --output <file>', 'output file')
-    .option('-n, --name <string>', 'const name of export')
-    .option('-d, --delay <int>', 'delay before running script')
-    .option('-l, --language <string>', 'Typehint language in JS')
+    .description(require('../package').description + '\n\nUSAGE: csshtml-module -i [inputFile] -o [outputFile]')
+    .requiredOption('-i, --input <file>', 'input file to convert (required)')
+    .requiredOption('-o, --output <file>', 'destination file. Should end with .ts or .js (required)')
+    .option('-n, --name <string>', 'the name of the JS constant')
+    .option('-d, --delay <int>', 'the time, in milliseconds, that the script should wait before compiling')
+    .option('-l, --language <string>', 'typehint the language - to help IDE\'s understand the content' )
     .parse(process.argv);
 
 
