@@ -2,7 +2,7 @@
 
 ⚡ Easily compile **CSS**, **HTML**, or other files into **JavaScript**/**TypeScript** modules with this CLI tool.
 
----
+<br>
 
 Automatically convert normal .css files 👇🏻
 
