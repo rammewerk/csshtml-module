@@ -4,7 +4,7 @@
 
 <br>
 
-Automatically convert normal .css files 👇🏻
+Automatically convert files 👇🏻
 
 ```css
 button {
