@@ -33,19 +33,22 @@ style.innerHTML = css;
 
 ## Developed as a helper tool for Web Components 👌🏻
 
-This CLI tool was created to simplify web component development.
+This CLI tool was created to simplify web component development without the need for WebPack, Rollup and similar tools.
 
 With IDE's like IntelliJ PHPStorm you can set up **File Watchers** to automatically compile
 **CSS** and **HTML** to usable TypeScript/JavaScript modules.
 
-**Example:** Use **File Watchers** in **PHPStorm** to compile SCSS to CSS
+#### Example:
+Use **File Watchers** in **PHPStorm** to compile SCSS to CSS
 automatically on new changes. Then convert **CSS** with **Autoprefixer** and
 **CSS Optimizer** on external changes - and finally, compile the css-file to a TypeScript/JavaScript module that
 you can easily import into your web component file.
 
-**PHPStorm File Watchers settings**
+So, now you can easily just change the SCSS file and it will automatically update the JS code after you saved the changes.
 
-![PHPStorm File Watchers Example](https://https://github.com/rammewerk/csshtml-module/.github/readme/file-watcher-example.png?raw=true)
+#### PHPStorm File Watchers settings:
+
+![PHPStorm File Watchers Example](https://github.com/rammewerk/csshtml-module/blob/main/.github/readme/file-watcher-example.png?raw=true)
 
 ## Usage
 
