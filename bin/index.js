@@ -12,27 +12,15 @@ const {program} = require('commander');
 program
     .version(require('../package').version)
     .description(require('../package').description + '\n\nUSAGE: csshtml-module -i [inputFile] -o [outputFile]')
-    .option('-i, --input <file>', 'input file to convert (will be ignored if --template is set)')
+    .option('-i, --input <file>', 'single file to convert - ignored if --template is set')
     .requiredOption('-o, --output <file>', 'destination file. Should end with .ts or .js (required)')
-    .option('    --template', 'compile to a web component template containing css and html. The --input should be added without .html and .css extension')
-    .option('-d, --delay <int>', 'the time, in milliseconds, that the script should wait before compiling')
-    .option('-n, --name <string>', 'the name of the JS constant (will be ignored if --template is set)')
+    .option('    --template', 'compiles to a HTMLTemplate module')
+    .option('-d, --delay <int>', 'time, in milliseconds, that the script should wait before compiling.')
+    .option('-n, --name <string>', 'name of the JS constant - ignored if --template is set')
     .option('--html <string>', 'html file to use in template')
     .option('--css <string>', 'css file to use in template ')
     .parse(process.argv);
 
-/**
- *   -V, --version            output the version number.
- *   -i, --input <file>       single file to convert - ignored if --template is set.
- *   -o, --output <file>      destination file. Should end with .ts or .js (required).
- *       --template           compiles to a HTMLTemplate module.
- *   -d, --delay <int>        time, in milliseconds, that the script should wait before compiling.
- *   -n, --name <string>      name of the JS constant - ignored if --template is set.
- *       --html <string>      html file to use for --template
- *       --css <string>       css file to use for --template
- *   -h, --help               display help for command
- * @type {{output: any, input: any, css: any, delay: (number|number), isTemplate: boolean, name: (any|string), html: any, typescript: boolean}}
- */
 
 const settings = {
     input: program.getOptionValue('input'),
