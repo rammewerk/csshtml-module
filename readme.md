@@ -9,12 +9,15 @@ A simple CLI tool to let you code HTML and CSS in native format when developing 
 ```
 npm install -g csshtml-module
 ```
+<br>
 
 ## Why use this tool
 
 There are currently no well-supported native way to import CSS and HTML to JavaScript. You can fetch these files,
 use compilers like Webpack and Rollup, or just put your code inside a JS file. But, you could also just let your
 IDE compile it automatically to native JS modules, which this CLI can help you with 😎
+
+<br>
 
 ## How it works
 
@@ -61,6 +64,8 @@ template.innerHTML = `
 
 Learn more about this below 👇👇👇
 
+<br>
+
 ## How your IDE might help you 👌🏻
 
 With an IDE like JetBrains PHPStorm you can set up **File Watchers** to automatically compile
@@ -79,6 +84,8 @@ So, you go from a SCSS file to ES6 module in seconds 🏎️💨
 If you update your SCSS it will recompile and changes are instant.
 
 ➡️ [More details on how to set uo **File Watchers**](readme-filewatcher.md).
+
+<br>
 
 ## Usage
 
@@ -103,6 +110,7 @@ Options:
   -h, --help               display help for command
 
 ```
+<br>
 
 ## Convert single file to module
 
@@ -141,6 +149,8 @@ template.innerHTML = ButtonHtml;
 * It will add a `\\ language=file-extension` comment to help you IDE understand the content.
 * If you want the compiler to wait for other compilers, you can define a `--delay`.
 * You are not limited to `HTML` or `CSS` - but the output will be string.
+
+<br>
 
 ## Convert to HTML Template module
 
@@ -184,6 +194,9 @@ this.shadowRoot.appendChild(template.content.cloneNode(true));
 * When you import the HTMLTemplate, it will be generated once, and not for every instance of your web component - like
   it would if you created the template inside the constructor/connectedCallback method.
 
+<br>
+
+---
 ## Some thoughts on why this CLI tool was created
 
 I wasn't able to find a satisfying solution to keep HTML and CSS as native, and separated, files when developing Web
