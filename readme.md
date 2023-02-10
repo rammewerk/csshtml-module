@@ -91,7 +91,7 @@ If you update your SCSS it will recompile and changes are instant.
 ➡️ [Details on how to set up **VSCcode**](readme-vscode.md).
 
 #### Example from PHPStorm
-![Template Example](https://github.com/rammewerk/csshtml-module/blob/main/.github/readme/template-example.gif?raw=true)
+![Template Example](https://github.com/rammewerk/csshtml-module/blob/main/.github/readme/phpstorm-template-example.gif?raw=true)
 
 <br>
 
@@ -131,7 +131,6 @@ csshtml-module  -i buttons.html  -o buttons.html.ts  --n ButtonHtml
 Which will convert your `buttons.html` file 👇🏻
 
 ```html
-
 <button type="submit" class="button">Save</button>
 ```
 Into this `buttons.html.ts` file 👇🏻
