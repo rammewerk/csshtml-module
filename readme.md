@@ -11,7 +11,7 @@ npm install -g csshtml-module
 ```
 
 * [**JetBrains File Watchers** example](readme-filewatcher.md)
-* [**VSCcode** example](readme-filewatcher.md).
+* [**VSCcode** example](readme-vscode.md).
 
 <br>
 
@@ -89,7 +89,7 @@ If you update your SCSS it will recompile and changes are instant.
 
 ➡️ [Details on how to set up JetBrains **File Watchers**](readme-filewatcher.md).
 
-➡️ [Details on how to set up **VSCcode**](readme-filewatcher.md).
+➡️ [Details on how to set up **VSCcode**](readme-vscode.md).
 
 <br>
 
