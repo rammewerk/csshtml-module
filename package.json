@@ -1,6 +1,6 @@
 {
   "name": "csshtml-module",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Easily compile CSS or HTML files to JavaScript/TypeScript modules with this CLI tool.",
   "license": "MIT",
   "repository": "rammewerk/csshtml-module",
