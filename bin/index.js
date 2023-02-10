@@ -11,7 +11,7 @@ const {program} = require('commander');
 
 program
     .version(require('../package').version)
-    .description(require('../package').description + '\n\nUSAGE: csshtml-module -i [inputFile] -o [outputFile]')
+    .description(require('../package').description + '\n\nSingle file compiling:\ncsshtml-module -i [inputFile] -o [outputFile]\n\nHTML Template file compiling:\ncsshtml-module --template --css [cssFile] --html [htmlFile] -o [outputTemplateJs]')
     .option('-i, --input <file>', 'single file to convert - ignored if --template is set')
     .requiredOption('-o, --output <file>', 'destination file. Should end with .ts or .js (required)')
     .option('    --template', 'compiles to a HTMLTemplate module')

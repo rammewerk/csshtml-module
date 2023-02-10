@@ -46,3 +46,6 @@ I only use this, instead of single modules - because it generates only one file.
 ````shell
 --template --css $FileName$ --html $FileNameWithoutExtension$.html -o $FileNameWithoutExtension$.template.ts --delay 500
 ````
+
+## In action
+![PHPStorm in action](https://github.com/rammewerk/csshtml-module/blob/main/.github/readme/phpstorm.gif?raw=true)
