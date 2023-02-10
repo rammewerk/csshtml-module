@@ -87,9 +87,11 @@ So, you go from a SCSS file to ES6 module in seconds 🏎️💨
 
 If you update your SCSS it will recompile and changes are instant.
 
-➡️ [Details on how to set up JetBrains **File Watchers**](readme-filewatcher.md).
-
+➡️ [Details on how to set up JetBrains **File Watchers**](readme-filewatcher.md).<br>
 ➡️ [Details on how to set up **VSCcode**](readme-vscode.md).
+
+#### Example from PHPStorm
+![Template Example](https://github.com/rammewerk/csshtml-module/blob/main/.github/readme/template-example.gif?raw=true)
 
 <br>
 
