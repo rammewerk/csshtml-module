@@ -134,7 +134,6 @@ Which will convert your `buttons.html` file 👇🏻
 
 <button type="submit" class="button">Save</button>
 ```
-
 Into this `buttons.html.ts` file 👇🏻
 
 ```ts
