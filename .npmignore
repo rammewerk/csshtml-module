@@ -1,0 +1,5 @@
+.github
+/node_modules/
+.idea
+readme-filewatcher.md
+readme-vscode.md
