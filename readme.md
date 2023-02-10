@@ -1,14 +1,18 @@
-# Compile CSS and HTML to ES6 modules
+# Compile CSS and HTML to JavaScript modules
 
-⚡ Easily compile **CSS**, **HTML**, or other files into **ES6 modules** for **JavaScript** or **TypeScript**.
+⚡ Easily compile **CSS**, **HTML**, or other files into **ES6 modules** for **JavaScript** or **TypeScript** ⚡
 
-A simple CLI tool to let you code HTML and CSS in native format when developing **Web Components**.
+*A simple CLI tool to let you use HTML and CSS files when developing **Web Components**.*
 
 ## Install
 
 ```
 npm install -g csshtml-module
 ```
+
+* [**JetBrains File Watchers** example](readme-filewatcher.md)
+* [**VSCcode** example](readme-filewatcher.md).
+
 <br>
 
 ## Why use this tool
@@ -83,7 +87,9 @@ So, you go from a SCSS file to ES6 module in seconds 🏎️💨
 
 If you update your SCSS it will recompile and changes are instant.
 
-➡️ [More details on how to set uo **File Watchers**](readme-filewatcher.md).
+➡️ [Details on how to set up JetBrains **File Watchers**](readme-filewatcher.md).
+
+➡️ [Details on how to set up **VSCcode**](readme-filewatcher.md).
 
 <br>
 
